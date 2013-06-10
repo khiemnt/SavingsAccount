@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+Export-Package: com.discorp.staff.dao;uses:="com.discorp.staff.xml,com
+ .discorp.staff.model,com.discorp.savings.dto";version="1.0.1",com.dis
+ corp.staff.model;uses:="javax.persistence",com.discorp.staff.dto,com.
+ discorp.utils;uses:="com.discorp.staff.xml"
+Private-Package: .,com.discorp.staff.dao.hibernate
+Built-By: khiemnt
+Tool: Bnd-0.0.311
+Bundle-Name: Stafflink Staff :: persistence
+Created-By: Apache Maven Bundle Plugin
+DynamicImport-Package: *
+Build-Jdk: 1.7.0_09
+Bundle-Version: 1.0.1
+Bnd-LastModified: 1370600601848
+Bundle-ManifestVersion: 2
+Import-Package: com.discorp.savings.dto,com.discorp.staff.dao;version=
+ "1.0",com.discorp.staff.dto,com.discorp.staff.model,com.discorp.staff
+ .xml,com.discorp.utils,javax.persistence,org.aopalliance.aop,org.apac
+ he.commons.dbcp;version="1.2",org.hibernate,org.hibernate.annotations
+ ,org.hibernate.criterion,org.hibernate.hql.ast,org.hibernate.proxy,or
+ g.postgresql,org.springframework.aop;version="3.0",org.springframewor
+ k.aop.framework;version="3.0",org.springframework.jdbc.datasource;ver
+ sion="3.0",org.springframework.orm.hibernate3;version="3.0",org.sprin
+ gframework.orm.hibernate3.annotation;version="3.0"
+Bundle-SymbolicName: stl_staff_persistence
+Originally-Created-By: Apache Maven Bundle Plugin
+

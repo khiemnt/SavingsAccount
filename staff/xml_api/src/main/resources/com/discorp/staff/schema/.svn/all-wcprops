@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repo/!svn/ver/10414/trunk/MiddleTier/Staff/xml_api/src/main/resources/com/discorp/staff/schema
+END
+setup.wsdl
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repo/!svn/ver/9875/trunk/MiddleTier/Staff/xml_api/src/main/resources/com/discorp/staff/schema/setup.wsdl
+END
+staffdetail.wsdl
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repo/!svn/ver/10414/trunk/MiddleTier/Staff/xml_api/src/main/resources/com/discorp/staff/schema/staffdetail.wsdl
+END

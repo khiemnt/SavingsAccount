@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Osmorc" name="OSGi">
+      <configuration manifestGenerationMode="OsmorcControlled" manifestLocation="" jarfileLocation="stl_staff_xml_api-1.0.1.jar" outputPathType="CompilerOutputPath" bndFileLocation="" bundlorFileLocation="" bundleActivator="" bundleSymbolicName="stl_staff_xml_api" bundleVersion="1.0.1" ignoreFilePattern="" useProjectDefaultManifestFileLocation="true" alwaysRebuildBundleJAR="false" doNotSynchronizeWithMaven="false">
+        <additionalProperties>
+          <property key="Import-Package" value="javax.xml.bind,javax.jws,javax.jws.soap,javax.transaction,javax.xml.bind.annotation,javax.xml.namespace,javax.xml.ws,org.aopalliance.aop,org.springframework.aop,org.springframework.aop.framework,org.springframework.transaction,org.springframework.transaction.interceptor,org.springframework.jmx.export,*" />
+          <property key="Export-Package" value="com.discorp.staff.xml,com.discorp.staff.schema" />
+          <property key="Bundle-Name" value="Stafflink Staff :: xml" />
+          <property key="Include-Resource" value="com/discorp/staff/schema/setup.wsdl=$MODULE_DIR$/src/main/resources/com/discorp/staff/schema/setup.wsdl,com/discorp/staff/schema/staffdetail.wsdl=$MODULE_DIR$/src/main/resources/com/discorp/staff/schema/staffdetail.wsdl" />
+        </additionalProperties>
+        <additionalJARContents />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_5" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <output-test url="file://$MODULE_DIR$/target/test-classes" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
+

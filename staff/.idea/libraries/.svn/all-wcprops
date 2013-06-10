@@ -1,0 +1,587 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/repo/!svn/ver/11678/trunk/MiddleTier/Staff/.idea/libraries
+END
+Maven__com_sun_xml_messaging_saaj_saaj_impl_1_3_2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__com_sun_xml_messaging_saaj_saaj_impl_1_3_2.xml
+END
+Maven__org_apache_cxf_cxf_rt_bindings_xml_2_2_6.xml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__org_apache_cxf_cxf_rt_bindings_xml_2_2_6.xml
+END
+Maven__xml_resolver_xml_resolver_1_2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__xml_resolver_xml_resolver_1_2.xml
+END
+Maven__org_apache_camel_camel_jaxb_2_6_0.xml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__org_apache_camel_camel_jaxb_2_6_0.xml
+END
+Maven__org_hibernate_javax_persistence_hibernate_jpa_2_0_api_1_0_0_Final.xml
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_0_api_1_0_0_Final.xml
+END
+Maven__org_apache_commons_com_springsource_org_apache_commons_logging_1_1_1.xml
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__org_apache_commons_com_springsource_org_apache_commons_logging_1_1_1.xml
+END
+Maven__org_apache_geronimo_specs_geronimo_ws_metadata_2_0_spec_1_1_2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_ws_metadata_2_0_spec_1_1_2.xml
+END
+Maven__org_springframework_spring_core_3_0_5_RELEASE.xml
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__org_springframework_spring_core_3_0_5_RELEASE.xml
+END
+Maven__dom4j_dom4j_1_6_1.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml
+END
+Maven__org_apache_cxf_cxf_common_schemas_2_2_6.xml
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__org_apache_cxf_cxf_common_schemas_2_2_6.xml
+END
+Maven__org_apache_cxf_cxf_rt_transports_http_jetty_2_2_6.xml
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__org_apache_cxf_cxf_rt_transports_http_jetty_2_2_6.xml
+END
+Maven__org_apache_camel_camel_servlet_2_6_0.xml
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__org_apache_camel_camel_servlet_2_6_0.xml
+END
+Maven__org_aopalliance_com_springsource_org_aopalliance_1_0_0.xml
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__org_aopalliance_com_springsource_org_aopalliance_1_0_0.xml
+END
+Maven__org_apache_geronimo_specs_geronimo_servlet_2_4_spec_1_1_1.xml
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_servlet_2_4_spec_1_1_1.xml
+END
+Maven__org_mortbay_jetty_jetty_6_1_21.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__org_mortbay_jetty_jetty_6_1_21.xml
+END
+Maven__asm_asm_1_5_3.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__asm_asm_1_5_3.xml
+END
+Maven__org_fusesource_commonman_commons_management_1_0.xml
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__org_fusesource_commonman_commons_management_1_0.xml
+END
+Maven__org_objectweb_asm_com_springsource_org_objectweb_asm_2_2_3.xml
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__org_objectweb_asm_com_springsource_org_objectweb_asm_2_2_3.xml
+END
+Maven__javax_xml_stream_stax_api_1_0_2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__javax_xml_stream_stax_api_1_0_2.xml
+END
+Maven__org_apache_neethi_neethi_2_0_4.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__org_apache_neethi_neethi_2_0_4.xml
+END
+Maven__javax_activation_activation_1_1.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__javax_activation_activation_1_1.xml
+END
+Maven__org_jboss_javassist_com_springsource_javassist_3_12_1_GA.xml
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__org_jboss_javassist_com_springsource_javassist_3_12_1_GA.xml
+END
+Maven__javax_xml_soap_saaj_api_1_3.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__javax_xml_soap_saaj_api_1_3.xml
+END
+Maven__org_apache_cxf_cxf_api_2_2_6.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__org_apache_cxf_cxf_api_2_2_6.xml
+END
+Maven__org_apache_geronimo_specs_geronimo_activation_1_1_spec_1_0_2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_activation_1_1_spec_1_0_2.xml
+END
+Maven__log4j_log4j_1_2_16.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__log4j_log4j_1_2_16.xml
+END
+Maven__org_springframework_osgi_spring_osgi_test_1_2_1.xml
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__org_springframework_osgi_spring_osgi_test_1_2_1.xml
+END
+Maven__org_hibernate_hibernate_core_3_6_5_Final.xml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__org_hibernate_hibernate_core_3_6_5_Final.xml
+END
+Maven__org_apache_cxf_cxf_common_utilities_2_3_2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__org_apache_cxf_cxf_common_utilities_2_3_2.xml
+END
+Maven__org_slf4j_slf4j_api_1_6_1.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__org_slf4j_slf4j_api_1_6_1.xml
+END
+Maven__com_sun_xml_bind_jaxb_impl_2_1_12.xml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__com_sun_xml_bind_jaxb_impl_2_1_12.xml
+END
+Maven__org_apache_cxf_cxf_rt_ws_addr_2_2_6.xml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__org_apache_cxf_cxf_rt_ws_addr_2_2_6.xml
+END
+Maven__commons_logging_commons_logging_1_1_1.xml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml
+END
+Maven__org_apache_geronimo_specs_geronimo_javamail_1_4_spec_1_6.xml
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_javamail_1_4_spec_1_6.xml
+END
+Maven__org_springframework_spring_asm_3_0_5_RELEASE.xml
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__org_springframework_spring_asm_3_0_5_RELEASE.xml
+END
+Maven__org_springframework_org_springframework_test_2_5_6_SEC01.xml
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__org_springframework_org_springframework_test_2_5_6_SEC01.xml
+END
+Maven__org_mortbay_jetty_jetty_util_6_1_21.xml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__org_mortbay_jetty_jetty_util_6_1_21.xml
+END
+Maven__org_apache_cxf_cxf_rt_transports_http_2_2_6.xml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__org_apache_cxf_cxf_rt_transports_http_2_2_6.xml
+END
+Maven__org_springframework_spring_tx_3_0_5_RELEASE.xml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__org_springframework_spring_tx_3_0_5_RELEASE.xml
+END
+Maven__javax_transaction_jta_1_1.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__javax_transaction_jta_1_1.xml
+END
+Maven__org_apache_ws_commons_schema_XmlSchema_1_4_5.xml
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__org_apache_ws_commons_schema_XmlSchema_1_4_5.xml
+END
+Maven__org_springframework_osgi_spring_osgi_io_1_2_1.xml
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__org_springframework_osgi_spring_osgi_io_1_2_1.xml
+END
+Maven__javax_ws_rs_jsr311_api_1_1_1.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__javax_ws_rs_jsr311_api_1_1_1.xml
+END
+Maven__org_codehaus_woodstox_woodstox_core_asl_4_0_8.xml
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__org_codehaus_woodstox_woodstox_core_asl_4_0_8.xml
+END
+Maven__org_springframework_org_springframework_core_2_5_6_SEC01.xml
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__org_springframework_org_springframework_core_2_5_6_SEC01.xml
+END
+Maven__org_codehaus_jettison_jettison_1_2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__org_codehaus_jettison_jettison_1_2.xml
+END
+Maven__wsdl4j_wsdl4j_1_6_2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__wsdl4j_wsdl4j_1_6_2.xml
+END
+Maven__org_springframework_spring_test_3_0_5_RELEASE.xml
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__org_springframework_spring_test_3_0_5_RELEASE.xml
+END
+Maven__org_apache_cxf_cxf_tools_common_2_2_6.xml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__org_apache_cxf_cxf_tools_common_2_2_6.xml
+END
+Maven__org_apache_geronimo_specs_geronimo_servlet_2_5_spec_1_2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_servlet_2_5_spec_1_2.xml
+END
+Maven__org_apache_camel_camel_core_2_6_0.xml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__org_apache_camel_camel_core_2_6_0.xml
+END
+Maven__org_springframework_org_springframework_aop_2_5_6_SEC01.xml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__org_springframework_org_springframework_aop_2_5_6_SEC01.xml
+END
+Maven__org_springframework_org_springframework_beans_2_5_6_SEC01.xml
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__org_springframework_org_springframework_beans_2_5_6_SEC01.xml
+END
+Maven__org_springframework_spring_expression_3_0_5_RELEASE.xml
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__org_springframework_spring_expression_3_0_5_RELEASE.xml
+END
+Maven__org_codehaus_woodstox_stax2_api_3_0_2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_3_0_2.xml
+END
+Maven__commons_httpclient_commons_httpclient_3_1.xml
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__commons_httpclient_commons_httpclient_3_1.xml
+END
+Maven__org_apache_geronimo_specs_geronimo_annotation_1_0_spec_1_1_1.xml
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_annotation_1_0_spec_1_1_1.xml
+END
+Maven__org_hibernate_hibernate_commons_annotations_3_2_0_Final.xml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__org_hibernate_hibernate_commons_annotations_3_2_0_Final.xml
+END
+Maven__org_quartz_scheduler_quartz_1_8_4.xml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__org_quartz_scheduler_quartz_1_8_4.xml
+END
+Maven__org_apache_geronimo_specs_geronimo_jaxws_2_1_spec_1_0.xml
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_jaxws_2_1_spec_1_0.xml
+END
+Maven__javassist_javassist_3_12_1_GA.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repo/!svn/ver/11678/trunk/MiddleTier/Staff/.idea/libraries/Maven__javassist_javassist_3_12_1_GA.xml
+END
+Maven__org_apache_cxf_cxf_rt_bindings_soap_2_2_6.xml
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__org_apache_cxf_cxf_rt_bindings_soap_2_2_6.xml
+END
+Maven__commons_logging_commons_logging_api_1_1.xml
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__commons_logging_commons_logging_api_1_1.xml
+END
+Maven__org_apache_cxf_cxf_rt_frontend_jaxrs_2_3_2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__org_apache_cxf_cxf_rt_frontend_jaxrs_2_3_2.xml
+END
+Maven__asm_asm_2_2_3.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__asm_asm_2_2_3.xml
+END
+Maven__javax_xml_bind_jaxb_api_2_1.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_1.xml
+END
+Maven__commons_collections_commons_collections_3_2_1.xml
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml
+END
+Maven__aopalliance_aopalliance_1_0.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml
+END
+Maven__org_apache_commons_com_springsource_org_apache_commons_dbcp_1_2_2_osgi.xml
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__org_apache_commons_com_springsource_org_apache_commons_dbcp_1_2_2_osgi.xml
+END
+Maven__org_junit_com_springsource_junit_3_8_2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__org_junit_com_springsource_junit_3_8_2.xml
+END
+Maven__org_springframework_spring_orm_3_0_5_RELEASE.xml
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__org_springframework_spring_orm_3_0_5_RELEASE.xml
+END
+Maven__org_apache_camel_camel_cxf_2_6_0.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__org_apache_camel_camel_cxf_2_6_0.xml
+END
+Maven__cglib_cglib_2_1_3.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__cglib_cglib_2_1_3.xml
+END
+Maven__postgresql_postgresql_9_0_801_jdbc4.xml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__postgresql_postgresql_9_0_801_jdbc4.xml
+END
+Maven__org_springframework_spring_context_3_0_5_RELEASE.xml
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__org_springframework_spring_context_3_0_5_RELEASE.xml
+END
+Maven__org_springframework_spring_web_2_5_6.xml
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__org_springframework_spring_web_2_5_6.xml
+END
+Maven__org_slf4j_slf4j_log4j12_1_6_1.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_6_1.xml
+END
+Maven__org_apache_cxf_cxf_rt_databinding_jaxb_2_2_6.xml
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__org_apache_cxf_cxf_rt_databinding_jaxb_2_2_6.xml
+END
+Maven__commons_collections_commons_collections_3_1.xml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__commons_collections_commons_collections_3_1.xml
+END
+Maven__commons_codec_commons_codec_1_2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__commons_codec_commons_codec_1_2.xml
+END
+Maven__org_springframework_spring_jdbc_3_0_5_RELEASE.xml
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__org_springframework_spring_jdbc_3_0_5_RELEASE.xml
+END
+Maven__org_easymock_easymock_2_0.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repo/!svn/ver/11678/trunk/MiddleTier/Staff/.idea/libraries/Maven__org_easymock_easymock_2_0.xml
+END
+Maven__org_apache_camel_camel_http_2_6_0.xml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__org_apache_camel_camel_http_2_6_0.xml
+END
+Maven__org_springframework_osgi_spring_osgi_core_1_2_1.xml
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__org_springframework_osgi_spring_osgi_core_1_2_1.xml
+END
+Maven__org_apache_cxf_cxf_rt_frontend_jaxws_2_2_6.xml
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__org_apache_cxf_cxf_rt_frontend_jaxws_2_2_6.xml
+END
+Maven__org_apache_camel_camel_spring_2_6_0.xml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__org_apache_camel_camel_spring_2_6_0.xml
+END
+Maven__org_springframework_org_springframework_context_2_5_6_SEC01.xml
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__org_springframework_org_springframework_context_2_5_6_SEC01.xml
+END
+Maven__org_apache_cxf_cxf_rt_frontend_simple_2_2_6.xml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__org_apache_cxf_cxf_rt_frontend_simple_2_2_6.xml
+END
+Maven__org_springframework_spring_aop_3_0_5_RELEASE.xml
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__org_springframework_spring_aop_3_0_5_RELEASE.xml
+END
+Maven__org_springframework_spring_beans_3_0_5_RELEASE.xml
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__org_springframework_spring_beans_3_0_5_RELEASE.xml
+END
+Maven__org_apache_commons_com_springsource_org_apache_commons_pool_1_3_0.xml
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__org_apache_commons_com_springsource_org_apache_commons_pool_1_3_0.xml
+END
+Maven__org_apache_camel_camel_test_2_8_0.xml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__org_apache_camel_camel_test_2_8_0.xml
+END
+Maven__org_codehaus_woodstox_wstx_asl_3_2_9.xml
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__org_codehaus_woodstox_wstx_asl_3_2_9.xml
+END
+Maven__antlr_antlr_2_7_6.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__antlr_antlr_2_7_6.xml
+END
+Maven__junit_junit_4_8_1.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__junit_junit_4_8_1.xml
+END
+Maven__org_apache_cxf_cxf_rt_core_2_2_6.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__org_apache_cxf_cxf_rt_core_2_2_6.xml
+END
+Maven__org_apache_camel_camel_quartz_2_6_0.xml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/.idea/libraries/Maven__org_apache_camel_camel_quartz_2_6_0.xml
+END

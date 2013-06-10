@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one or more
+    contributor license agreements.  See the NOTICE file distributed with
+    this work for additional information regarding copyright ownership.
+    The ASF licenses this file to You under the Apache License, Version 2.0
+    (the "License"); you may not use this file except in compliance with
+    the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+                  xmlns:tns="http://www.dis-corp.com"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+                  xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                  targetNamespace="http://www.dis-corp.com">
+
+
+    <!-- Type definitions for input- and output parameters for webservice -->
+    <wsdl:types>
+        <xs:schema targetNamespace="http://www.dis-corp.com">
+
+            <xs:element name="InvationCodeRequest">
+            </xs:element>
+            <xs:element name="InvationCodeResponse">
+            </xs:element>
+            <xs:element name="UpdateCreditCardRequest">
+            </xs:element>
+            <xs:element name="UpdateCreditCardResponse">
+            </xs:element>
+            <xs:element name="ChangePasswordRequest">
+            </xs:element>
+            <xs:element name="ChangePasswordResponse">
+            </xs:element>
+            <xs:element name="CancelServiceRequest">
+            </xs:element>
+            <xs:element name="CancelServiceResponse">
+            </xs:element>
+            <xs:element name="UpdateNotificationRequest">
+            </xs:element>
+            <xs:element name="UpdateNotificationResponse">
+            </xs:element>
+            <xs:element name="NotificationInformationRequest">
+            </xs:element>
+            <xs:element name="NotificationInformationResponse">
+            </xs:element>
+            <xs:element name="SetupRequest">
+            </xs:element>
+            <xs:element name="SetupResponse">
+            </xs:element>
+
+            <xs:element name="InformationRequest">
+            </xs:element>
+            <xs:element name="InformationResponse">
+            </xs:element>
+            <xs:element name="MailServerInfoRequest">
+            </xs:element>
+            <xs:element name="MailServerInfoResponse">
+            </xs:element>
+            <xs:element name="UpdateMailServerInfoRequest">
+            </xs:element>
+            <xs:element name="UpdateMailServerInfoResponse">
+            </xs:element>
+
+        </xs:schema>
+    </wsdl:types>
+
+    <!-- Message definitions for input and output -->
+
+
+    <wsdl:message name="InvationCodeRequest">
+        <wsdl:part name="in" element="tns:InvationCodeRequest"/>
+    </wsdl:message>
+    <wsdl:message name="InvationCodeResponse">
+        <wsdl:part name="out" element="tns:InvationCodeResponse"/>
+    </wsdl:message>
+    <wsdl:message name="UpdateCreditCardRequest">
+        <wsdl:part name="in" element="tns:UpdateCreditCardRequest"/>
+    </wsdl:message>
+    <wsdl:message name="UpdateCreditCardResponse">
+        <wsdl:part name="out" element="tns:UpdateCreditCardResponse"/>
+    </wsdl:message>
+    <wsdl:message name="ChangePasswordRequest">
+        <wsdl:part name="in" element="tns:ChangePasswordRequest"/>
+    </wsdl:message>
+    <wsdl:message name="ChangePasswordResponse">
+        <wsdl:part name="out" element="tns:ChangePasswordResponse"/>
+    </wsdl:message>
+    <wsdl:message name="CancelServiceRequest">
+        <wsdl:part name="in" element="tns:CancelServiceRequest"/>
+    </wsdl:message>
+    <wsdl:message name="CancelServiceResponse">
+        <wsdl:part name="out" element="tns:CancelServiceResponse"/>
+    </wsdl:message>
+    <wsdl:message name="UpdateNotificationRequest">
+        <wsdl:part name="in" element="tns:UpdateNotificationRequest"/>
+    </wsdl:message>
+    <wsdl:message name="UpdateNotificationResponse">
+        <wsdl:part name="out" element="tns:UpdateNotificationResponse"/>
+    </wsdl:message>
+    <wsdl:message name="NotificationInformationRequest">
+        <wsdl:part name="in" element="tns:NotificationInformationRequest"/>
+    </wsdl:message>
+    <wsdl:message name="NotificationInformationResponse">
+        <wsdl:part name="out" element="tns:NotificationInformationResponse"/>
+    </wsdl:message>
+    <wsdl:message name="SetupRequest">
+        <wsdl:part name="in" element="tns:SetupRequest"/>
+    </wsdl:message>
+    <wsdl:message name="SetupResponse">
+        <wsdl:part name="out" element="tns:SetupResponse"/>
+    </wsdl:message>
+     <wsdl:message name="InformationRequest">
+        <wsdl:part name="in" element="tns:InformationRequest"/>
+    </wsdl:message>
+     <wsdl:message name="InformationResponse">
+        <wsdl:part name="out" element="tns:InformationResponse"/>
+    </wsdl:message>
+    <wsdl:message name="MailServerInfoRequest">
+        <wsdl:part name="in" element="tns:MailServerInfoRequest"/>
+    </wsdl:message>
+     <wsdl:message name="MailServerInfoResponse">
+        <wsdl:part name="out" element="tns:MailServerInfoResponse"/>
+    </wsdl:message>
+    <wsdl:message name="UpdateMailServerInfoRequest">
+        <wsdl:part name="in" element="tns:UpdateMailServerInfoRequest"/>
+    </wsdl:message>
+    <wsdl:message name="UpdateMailServerInfoResponse">
+        <wsdl:part name="out" element="tns:UpdateMailServerInfoResponse"/>
+    </wsdl:message>
+
+
+
+    <!-- Port (interface) definitions -->
+    <wsdl:portType name="SetUpEndpoint">
+        <wsdl:operation name="checkInvationCode">
+            <wsdl:input message="tns:InvationCodeRequest"/>
+            <wsdl:output message="tns:InvationCodeResponse"/>
+        </wsdl:operation>
+
+        <wsdl:operation name="updateCreditCardInfo">
+            <wsdl:input message="tns:UpdateCreditCardRequest"/>
+            <wsdl:output message="tns:UpdateCreditCardResponse"/>
+        </wsdl:operation>
+
+        <wsdl:operation name="changePassword">
+            <wsdl:input message="tns:ChangePasswordRequest"/>
+            <wsdl:output message="tns:ChangePasswordResponse"/>
+        </wsdl:operation>
+
+        <wsdl:operation name="cancelService">
+            <wsdl:input message="tns:CancelServiceRequest"/>
+            <wsdl:output message="tns:CancelServiceResponse"/>
+        </wsdl:operation>
+
+        <wsdl:operation name="updateNotification">
+            <wsdl:input message="tns:UpdateNotificationRequest"/>
+            <wsdl:output message="tns:UpdateNotificationResponse"/>
+        </wsdl:operation>
+
+        <wsdl:operation name="getNotificationInfor">
+            <wsdl:input message="tns:NotificationInformationRequest"/>
+            <wsdl:output message="tns:NotificationInformationResponse"/>
+        </wsdl:operation>
+
+        <wsdl:operation name="setupStaflink">
+            <wsdl:input message="tns:SetupRequest"/>
+            <wsdl:output message="tns:SetupResponse"/>
+        </wsdl:operation>
+
+         <wsdl:operation name="getInformation">
+            <wsdl:input message="tns:InformationRequest"/>
+            <wsdl:output message="tns:InformationResponse"/>
+        </wsdl:operation>
+
+        <wsdl:operation name="getMailServerInfo">
+            <wsdl:input message="tns:MailServerInfoRequest"/>
+            <wsdl:output message="tns:MailServerInfoResponse"/>
+        </wsdl:operation>
+
+        <wsdl:operation name="updateMailServerInfo">
+            <wsdl:input message="tns:UpdateMailServerInfoRequest"/>
+            <wsdl:output message="tns:UpdateMailServerInfoResponse"/>
+        </wsdl:operation>
+
+
+    </wsdl:portType>
+
+
+    <!-- Port bindings to transports and encoding - HTTP, document literal encoding is used -->
+    <wsdl:binding name="SetUpBinding" type="tns:SetUpEndpoint">
+        <soap:binding transport="http://schemas.xmlsoap.org/soap/http"/>
+
+
+        <wsdl:operation name="checkInvationCode">
+            <wsdl:input>
+                <soap:body parts="in" use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body parts="out" use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="updateCreditCardInfo">
+            <wsdl:input>
+                <soap:body parts="in" use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body parts="out" use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="changePassword">
+            <wsdl:input>
+                <soap:body parts="in" use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body parts="out" use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="cancelService">
+            <wsdl:input>
+                <soap:body parts="in" use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body parts="out" use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="updateNotification">
+            <wsdl:input>
+                <soap:body parts="in" use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body parts="out" use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="getNotificationInfor">
+            <wsdl:input>
+                <soap:body parts="in" use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body parts="out" use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="setupStaflink">
+            <wsdl:input>
+                <soap:body parts="in" use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body parts="out" use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="getInformation">
+            <wsdl:input>
+                <soap:body parts="in" use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body parts="out" use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="getMailServerInfo">
+            <wsdl:input>
+                <soap:body parts="in" use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body parts="out" use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="updateMailServerInfo">
+            <wsdl:input>
+                <soap:body parts="in" use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body parts="out" use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+    </wsdl:binding>
+
+    <!-- Service definition -->
+    <wsdl:service name="SetUpEndpointService">
+        <wsdl:port name="SetUpEndpoint" binding="tns:SetUpBinding">
+            <soap:address location="http://localhost:9080/router/webservices/setup"/>
+        </wsdl:port>
+    </wsdl:service>
+
+</wsdl:definitions>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+                      http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-2.0.xsd">
+
+
+    <!-- regular spring configuration file defining the beans for this
+bundle. The configuration of OSGi definitions is kept in a separate
+configuration file so that this file can easily be used
+for integration testing outside of an OSGi environment -->
+    <bean id="dsDISOnlineCommon" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
+        <property name="driverClassName" value="org.postgresql.Driver"/>
+        <property name="url" value="jdbc:postgresql://localhost/db_new_local"/>
+
+        <property name="username" value="qsoft"/>
+        <property name="password" value="H@n0i"/>
+    </bean>
+
+    <!-- enable the configuration of transactional behavior based on annotations -->
+    <tx:annotation-driven transaction-manager="txManager"/>
+    <bean id="sfDISOnlineCommonDB" class="org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean">
+        <property name="dataSource" ref="dsDISOnlineCommon"/>
+        <property name="annotatedClasses">
+            <list>
+                <value>com.discorp.staff.model.Customer</value>
+                <value>com.discorp.staff.model.Address</value>
+                <value>com.discorp.staff.model.CommunicationMethod</value>
+                <value>com.discorp.staff.model.CommunicationDetail</value>
+                <value>com.discorp.staff.model.BusinessEntity</value>
+                <value>com.discorp.staff.model.BusinessEntityAddress</value>
+                <value>com.discorp.staff.model.Contact</value>
+                <value>com.discorp.staff.model.Block</value>
+                <value>com.discorp.staff.model.Field</value>
+                <value>com.discorp.staff.model.FieldValue</value>
+                <value>com.discorp.staff.model.Role</value>
+                <value>com.discorp.staff.model.Dealer</value>
+                <value>com.discorp.staff.model.CardInfor</value>
+                <value>com.discorp.staff.model.CommonInfor</value>
+                <value>com.discorp.staff.model.Payment</value>
+                <value>com.discorp.staff.model.Company</value>
+                <value>com.discorp.staff.model.BillingHistory</value>
+                <value>com.discorp.staff.model.TextEntry</value>
+                <value>com.discorp.staff.model.MailServerInfo</value>
+                <value>com.discorp.staff.model.UserPayment</value>
+
+                <value>com.discorp.staff.model.AttributeValue</value>
+                <value>com.discorp.staff.model.SearchableAttribute</value>
+                <value>com.discorp.staff.model.Viewer</value>
+            </list>
+        </property>
+        <property name="hibernateProperties">
+            <props>
+                <prop key="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</prop>
+                <prop key="hibernate.hbm2ddl.auto">update</prop>
+                <prop key="hibernate.query.factory_class">org.hibernate.hql.classic.ClassicQueryTranslatorFactory</prop>
+                <prop key="hibernate.connection.url">jdbc:postgresql://localhost:5432/db_common_new</prop>
+                <prop key="hibernate.connection.driver_class">org.postgresql.Driver</prop>
+                <prop key="show_sql">true</prop>
+                <prop key="hibernate.connection.username">qsoft</prop>
+                <prop key="hibernate.connection.password">H@n0i</prop>
+                <prop key="hbm2ddl.auto">update</prop>
+            </props>
+        </property>
+
+    </bean>
+
+    <bean id="txManager" class="org.springframework.orm.hibernate3.HibernateTransactionManager">
+        <property name="sessionFactory" ref="sfDISOnlineCommonDB"/>
+    </bean>
+
+
+    <bean id="fieldDAO" class="com.discorp.staff.dao.hibernate.FieldDaoImpl">
+        <property name="sessionFactory" ref="sfDISOnlineCommonDB"/>
+    </bean>
+
+    <bean id="customerDAO" class="com.discorp.staff.dao.hibernate.CustomerDaoImpl">
+        <property name="sessionFactory" ref="sfDISOnlineCommonDB"/>
+    </bean>
+    <bean id="addressDAO" class="com.discorp.staff.dao.hibernate.AddressDaoImpl">
+        <property name="sessionFactory" ref="sfDISOnlineCommonDB"/>
+    </bean>
+    <bean id="businessEntityDAO" class="com.discorp.staff.dao.hibernate.BusinessEntityDaoImpl">
+        <property name="sessionFactory" ref="sfDISOnlineCommonDB"/>
+    </bean>
+    <bean id="contactDAO" class="com.discorp.staff.dao.hibernate.ContactDaoImpl">
+        <property name="sessionFactory" ref="sfDISOnlineCommonDB"/>
+    </bean>
+    <bean id="communicationDetailDAO" class="com.discorp.staff.dao.hibernate.CommunicationDetailDaoImpl">
+        <property name="sessionFactory" ref="sfDISOnlineCommonDB"/>
+    </bean>
+    <bean id="dealerDAO" class="com.discorp.staff.dao.hibernate.DealerDaoImpl">
+        <property name="sessionFactory" ref="sfDISOnlineCommonDB"/>
+    </bean>
+    <bean id="cardInfoDAO" class="com.discorp.staff.dao.hibernate.CardInfoDaoImpl">
+        <property name="sessionFactory" ref="sfDISOnlineCommonDB"/>
+    </bean>
+    <bean id="paymentDAO" class="com.discorp.staff.dao.hibernate.PaymentDaoImpl">
+        <property name="sessionFactory" ref="sfDISOnlineCommonDB"/>
+    </bean>
+    <bean id="companyDAO" class="com.discorp.staff.dao.hibernate.CompanyDaoImpl">
+        <property name="sessionFactory" ref="sfDISOnlineCommonDB"/>
+    </bean>
+    <bean id="mailServerInfoDAO" class="com.discorp.staff.dao.hibernate.MailServerInfoImpl">
+        <property name="sessionFactory" ref="sfDISOnlineCommonDB"/>
+    </bean>
+
+    <bean id="blockDAO" class="com.discorp.staff.dao.hibernate.BlockDaoImpl">
+        <property name="sessionFactory" ref="sfDISOnlineCommonDB"/>
+    </bean>
+    <bean id="billingHistoryDAO" class="com.discorp.staff.dao.hibernate.BillingHistoryDaoImpl">
+        <property name="sessionFactory" ref="sfDISOnlineCommonDB"/>
+    </bean>
+    <bean id="textEntryDAO" class="com.discorp.staff.dao.hibernate.TextEntryDaoImpl">
+        <property name="sessionFactory" ref="sfDISOnlineCommonDB"/>
+    </bean>
+    <bean id="userPaymentDAO" class="com.discorp.staff.dao.hibernate.UserPaymentDaoImpl">
+        <property name="sessionFactory" ref="sfDISOnlineCommonDB"/>
+    </bean>
+    <bean id="fieldValueDAO" class="com.discorp.staff.dao.hibernate.FieldValueDaoImpl">
+        <property name="sessionFactory" ref="sfDISOnlineCommonDB"/>
+    </bean>
+    <bean id="commonInforDAO" class="com.discorp.staff.dao.hibernate.CommonInforDaoImpl">
+        <property name="sessionFactory" ref="sfDISOnlineCommonDB"/>
+    </bean>
+    <bean id="firstLightDAO" class="com.discorp.staff.dao.hibernate.FirstLightDaoImpl">
+        <property name="sessionFactory" ref="sfDISOnlineCommonDB"/>
+    </bean>
+    <bean id="searchableAttributeDAO" class="com.discorp.staff.dao.hibernate.SearchableAttributeDaoImpl">
+        <property name="sessionFactory" ref="sfDISOnlineCommonDB"/>
+    </bean>
+    <bean id="attributeValueDao" class="com.discorp.staff.dao.hibernate.AttributeValueDaoImpl">
+        <property name="sessionFactory" ref="sfDISOnlineCommonDB"/>
+    </bean>
+</beans>

@@ -1,0 +1,155 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repo/!svn/ver/11785/trunk/MiddleTier/Staff/persistence/src/main/java/com/discorp/staff/dao
+END
+BusinessEntityDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repo/!svn/ver/11785/trunk/MiddleTier/Staff/persistence/src/main/java/com/discorp/staff/dao/BusinessEntityDao.java
+END
+TextEntryDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repo/!svn/ver/11785/trunk/MiddleTier/Staff/persistence/src/main/java/com/discorp/staff/dao/TextEntryDao.java
+END
+PaymentDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repo/!svn/ver/11785/trunk/MiddleTier/Staff/persistence/src/main/java/com/discorp/staff/dao/PaymentDao.java
+END
+FirstLightDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repo/!svn/ver/11785/trunk/MiddleTier/Staff/persistence/src/main/java/com/discorp/staff/dao/FirstLightDao.java
+END
+CommunicationDetailDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repo/!svn/ver/11785/trunk/MiddleTier/Staff/persistence/src/main/java/com/discorp/staff/dao/CommunicationDetailDao.java
+END
+CheckDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repo/!svn/ver/11785/trunk/MiddleTier/Staff/persistence/src/main/java/com/discorp/staff/dao/CheckDao.java
+END
+MailServerInfoDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repo/!svn/ver/11785/trunk/MiddleTier/Staff/persistence/src/main/java/com/discorp/staff/dao/MailServerInfoDao.java
+END
+BlockDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repo/!svn/ver/11785/trunk/MiddleTier/Staff/persistence/src/main/java/com/discorp/staff/dao/BlockDao.java
+END
+OrderDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repo/!svn/ver/11785/trunk/MiddleTier/Staff/persistence/src/main/java/com/discorp/staff/dao/OrderDao.java
+END
+AddressDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repo/!svn/ver/11785/trunk/MiddleTier/Staff/persistence/src/main/java/com/discorp/staff/dao/AddressDao.java
+END
+SavingsAccountDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repo/!svn/ver/11785/trunk/MiddleTier/Staff/persistence/src/main/java/com/discorp/staff/dao/SavingsAccountDao.java
+END
+AttributeValueDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repo/!svn/ver/11785/trunk/MiddleTier/Staff/persistence/src/main/java/com/discorp/staff/dao/AttributeValueDao.java
+END
+FieldValueDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repo/!svn/ver/11785/trunk/MiddleTier/Staff/persistence/src/main/java/com/discorp/staff/dao/FieldValueDao.java
+END
+CommonInforDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repo/!svn/ver/11785/trunk/MiddleTier/Staff/persistence/src/main/java/com/discorp/staff/dao/CommonInforDao.java
+END
+DealerDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repo/!svn/ver/11785/trunk/MiddleTier/Staff/persistence/src/main/java/com/discorp/staff/dao/DealerDao.java
+END
+BillingHistoryDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repo/!svn/ver/11785/trunk/MiddleTier/Staff/persistence/src/main/java/com/discorp/staff/dao/BillingHistoryDao.java
+END
+SearchableAttributeDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repo/!svn/ver/11785/trunk/MiddleTier/Staff/persistence/src/main/java/com/discorp/staff/dao/SearchableAttributeDao.java
+END
+FieldDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repo/!svn/ver/11785/trunk/MiddleTier/Staff/persistence/src/main/java/com/discorp/staff/dao/FieldDao.java
+END
+UserPaymentDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repo/!svn/ver/11785/trunk/MiddleTier/Staff/persistence/src/main/java/com/discorp/staff/dao/UserPaymentDao.java
+END
+CompanyDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repo/!svn/ver/11785/trunk/MiddleTier/Staff/persistence/src/main/java/com/discorp/staff/dao/CompanyDao.java
+END
+CardInfoDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repo/!svn/ver/11785/trunk/MiddleTier/Staff/persistence/src/main/java/com/discorp/staff/dao/CardInfoDao.java
+END
+TransactionDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repo/!svn/ver/11785/trunk/MiddleTier/Staff/persistence/src/main/java/com/discorp/staff/dao/TransactionDao.java
+END
+CustomerDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repo/!svn/ver/11785/trunk/MiddleTier/Staff/persistence/src/main/java/com/discorp/staff/dao/CustomerDao.java
+END
+AddStaffDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/persistence/src/main/java/com/discorp/staff/dao/AddStaffDao.java
+END
+ContactDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repo/!svn/ver/11785/trunk/MiddleTier/Staff/persistence/src/main/java/com/discorp/staff/dao/ContactDao.java
+END

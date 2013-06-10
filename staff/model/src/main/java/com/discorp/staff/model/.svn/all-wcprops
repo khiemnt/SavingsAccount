@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repo/!svn/ver/11784/trunk/MiddleTier/Staff/model/src/main/java/com/discorp/staff/model
+END
+Block.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repo/!svn/ver/11784/trunk/MiddleTier/Staff/model/src/main/java/com/discorp/staff/model/Block.java
+END
+MailServerInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repo/!svn/ver/11784/trunk/MiddleTier/Staff/model/src/main/java/com/discorp/staff/model/MailServerInfo.java
+END
+CommunicationDetail.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repo/!svn/ver/11784/trunk/MiddleTier/Staff/model/src/main/java/com/discorp/staff/model/CommunicationDetail.java
+END
+Payment.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repo/!svn/ver/11784/trunk/MiddleTier/Staff/model/src/main/java/com/discorp/staff/model/Payment.java
+END
+TextEntry.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repo/!svn/ver/11784/trunk/MiddleTier/Staff/model/src/main/java/com/discorp/staff/model/TextEntry.java
+END
+BusinessEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repo/!svn/ver/11784/trunk/MiddleTier/Staff/model/src/main/java/com/discorp/staff/model/BusinessEntity.java
+END
+Contact.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repo/!svn/ver/11784/trunk/MiddleTier/Staff/model/src/main/java/com/discorp/staff/model/Contact.java
+END
+Customer.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repo/!svn/ver/11784/trunk/MiddleTier/Staff/model/src/main/java/com/discorp/staff/model/Customer.java
+END
+Company.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repo/!svn/ver/11784/trunk/MiddleTier/Staff/model/src/main/java/com/discorp/staff/model/Company.java
+END
+UserPayment.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repo/!svn/ver/11784/trunk/MiddleTier/Staff/model/src/main/java/com/discorp/staff/model/UserPayment.java
+END
+SearchableAttribute.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repo/!svn/ver/11784/trunk/MiddleTier/Staff/model/src/main/java/com/discorp/staff/model/SearchableAttribute.java
+END
+Field.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repo/!svn/ver/11784/trunk/MiddleTier/Staff/model/src/main/java/com/discorp/staff/model/Field.java
+END
+BillingHistory.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repo/!svn/ver/11784/trunk/MiddleTier/Staff/model/src/main/java/com/discorp/staff/model/BillingHistory.java
+END
+CommonInfor.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repo/!svn/ver/11784/trunk/MiddleTier/Staff/model/src/main/java/com/discorp/staff/model/CommonInfor.java
+END
+Dealer.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repo/!svn/ver/11784/trunk/MiddleTier/Staff/model/src/main/java/com/discorp/staff/model/Dealer.java
+END
+CommunicationMethod.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repo/!svn/ver/11784/trunk/MiddleTier/Staff/model/src/main/java/com/discorp/staff/model/CommunicationMethod.java
+END
+FieldValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repo/!svn/ver/11784/trunk/MiddleTier/Staff/model/src/main/java/com/discorp/staff/model/FieldValue.java
+END
+Role.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repo/!svn/ver/11784/trunk/MiddleTier/Staff/model/src/main/java/com/discorp/staff/model/Role.java
+END
+AttributeValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repo/!svn/ver/11784/trunk/MiddleTier/Staff/model/src/main/java/com/discorp/staff/model/AttributeValue.java
+END
+CardInfor.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repo/!svn/ver/11784/trunk/MiddleTier/Staff/model/src/main/java/com/discorp/staff/model/CardInfor.java
+END
+Address.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repo/!svn/ver/11784/trunk/MiddleTier/Staff/model/src/main/java/com/discorp/staff/model/Address.java
+END
+Viewer.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repo/!svn/ver/11784/trunk/MiddleTier/Staff/model/src/main/java/com/discorp/staff/model/Viewer.java
+END
+BusinessEntityAddress.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repo/!svn/ver/11784/trunk/MiddleTier/Staff/model/src/main/java/com/discorp/staff/model/BusinessEntityAddress.java
+END

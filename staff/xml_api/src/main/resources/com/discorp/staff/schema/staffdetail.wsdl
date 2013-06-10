@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one or more
+    contributor license agreements.  See the NOTICE file distributed with
+    this work for additional information regarding copyright ownership.
+    The ASF licenses this file to You under the Apache License, Version 2.0
+    (the "License"); you may not use this file except in compliance with
+    the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+                  xmlns:tns="http://www.dis-corp.com"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+                  xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                  targetNamespace="http://www.dis-corp.com">
+
+    <!-- Type definitions for input- and output parameters for webservice -->
+    <wsdl:types>
+        <xs:schema targetNamespace="http://www.dis-corp.com">
+
+
+            <xs:element name="StaffDTOResponse">
+            </xs:element>
+            <xs:element name="BlockResponse">
+            </xs:element>
+            <xs:element name="StaffDetailRequest">
+            </xs:element>
+            <xs:element name="StaffBlockRequest">
+            </xs:element>
+            <xs:element name="StaffDetailAddRequest">
+            </xs:element>
+            <xs:element name="AddStaffRequest">
+            </xs:element>
+            <xs:element name="RoleRequest">
+            </xs:element>
+            <xs:element name="BlockRequest">
+            </xs:element>
+
+            <xs:element name="StaffInformationRequest">
+            </xs:element>
+            <xs:element name="AddMutileRequest">
+            </xs:element>
+            <xs:element name="DeleteMutilFieldRequest">
+            </xs:element>
+            <xs:element name="DeleteRightRequest">
+            </xs:element>
+            <xs:element name="AdminRequest">
+            </xs:element>
+            <xs:element name="BillingHistoryRequest">
+            </xs:element>
+
+            <xs:element name="AdminPaymentRequest">
+            </xs:element>
+
+            <xs:element name="AccountResponse">
+            </xs:element>
+            <xs:element name="StaffRequest">
+            </xs:element>
+            <xs:element name="CommonStaffRequest">
+            </xs:element>
+            <xs:element name="CompanyResponse">
+            </xs:element>
+            <xs:element name="TextEntryRequest">
+            </xs:element>
+            <xs:element name="EditEntryTextRequest">
+            </xs:element>
+
+            <xs:element name="AddCustomerRequest">
+            </xs:element>
+            <xs:element name="AddCustomerResponse">
+            </xs:element>
+
+            <xs:element name="Account">
+            </xs:element>
+            <xs:element name="CustomerRequest">
+            </xs:element>
+            <xs:element name="ValidateVerificationCodeRequest">
+            </xs:element>
+
+
+            <xs:element name="StaffReceiveSuggestionRequest">
+            </xs:element>
+
+
+
+            <xs:element name="SearchConditionRequest">
+            </xs:element>
+
+            <xs:element name="SearchConditionResponse">
+            </xs:element>
+
+
+            <xs:element name="DynamicSearchRequest">
+            </xs:element>
+            <xs:element name="DynamicSearchResponse">
+            </xs:element>
+
+        </xs:schema>
+    </wsdl:types>
+
+    <!-- Message definitions for input and output -->
+
+    <wsdl:message name="DeleteMutilFieldRequest">
+        <wsdl:part name="in" element="tns:DeleteMutilFieldRequest"/>
+    </wsdl:message>
+      <wsdl:message name="DeleteRightRequest">
+        <wsdl:part name="in" element="tns:DeleteRightRequest"/>
+    </wsdl:message>
+      <wsdl:message name="AddMutileRequest">
+        <wsdl:part name="in" element="tns:AddMutileRequest"/>
+    </wsdl:message>
+    <wsdl:message name="BlockRequest">
+        <wsdl:part name="in" element="tns:BlockRequest"/>
+    </wsdl:message>
+
+    <wsdl:message name="StaffInformationRequest">
+        <wsdl:part name="in" element="tns:StaffInformationRequest"/>
+    </wsdl:message>
+    <wsdl:message name="RoleRequest">
+        <wsdl:part name="in" element="tns:RoleRequest"/>
+    </wsdl:message>
+    <wsdl:message name="AddStaffRequest">
+        <wsdl:part name="in" element="tns:AddStaffRequest"/>
+    </wsdl:message>
+    <wsdl:message name="StaffDetailAddRequest">
+        <wsdl:part name="in" element="tns:StaffDetailAddRequest"/>
+    </wsdl:message>
+    <wsdl:message name="StaffDetailRequest">
+        <wsdl:part name="in" element="tns:StaffDetailRequest"/>
+    </wsdl:message>
+    <wsdl:message name="StaffBlockRequest">
+        <wsdl:part name="in" element="tns:StaffBlockRequest"/>
+    </wsdl:message>
+    <wsdl:message name="StaffDTOResponse">
+        <wsdl:part name="out" element="tns:StaffDTOResponse"/>
+    </wsdl:message>
+    <wsdl:message name="BlockResponse">
+        <wsdl:part name="out" element="tns:BlockResponse"/>
+    </wsdl:message>
+
+     <wsdl:message name="StaffRequest">
+        <wsdl:part name="in" element="tns:StaffRequest"/>
+    </wsdl:message>
+    <wsdl:message name="AccountResponse">
+        <wsdl:part name="out" element="tns:AccountResponse"/>
+    </wsdl:message>
+     <wsdl:message name="AccountRequest">
+        <wsdl:part name="in" element="tns:CommonStaffRequest"/>
+    </wsdl:message>
+
+    <wsdl:message name="CompanyResponse">
+        <wsdl:part name="out" element="tns:CompanyResponse"/>
+    </wsdl:message>
+    <wsdl:message name="AdminRequest">
+        <wsdl:part name="in" element="tns:AdminRequest"/>
+    </wsdl:message>
+    <wsdl:message name="BillingHistoryRequest">
+        <wsdl:part name="in" element="tns:BillingHistoryRequest"/>
+    </wsdl:message>
+
+    <wsdl:message name="TextEntryRequest">
+        <wsdl:part name="in" element="tns:TextEntryRequest"/>
+    </wsdl:message>
+
+    <wsdl:message name="EditEntryTextRequest">
+        <wsdl:part name="in" element="tns:EditEntryTextRequest"/>
+    </wsdl:message>
+
+    <wsdl:message name="AdminPaymentRequest">
+        <wsdl:part name="in" element="tns:AdminPaymentRequest"/>
+    </wsdl:message>
+
+    <wsdl:message name="AddCustomerRequest">
+        <wsdl:part name="in" element="tns:AddCustomerRequest"/>
+    </wsdl:message>
+    <wsdl:message name="AddCustomerResponse">
+        <wsdl:part name="out" element="tns:AddCustomerResponse"/>
+    </wsdl:message>
+
+    <wsdl:message name="CustomerRequest">
+        <wsdl:part name="in" element="tns:CustomerRequest"/>
+    </wsdl:message>
+    <wsdl:message name="Account">
+        <wsdl:part name="out" element="tns:Account"/>
+    </wsdl:message>
+    <wsdl:message name="ValidateVerificationCodeRequest">
+        <wsdl:part name="in" element="tns:ValidateVerificationCodeRequest"/>
+    </wsdl:message>
+
+    <wsdl:message name="StaffReceiveSuggestionRequest">
+        <wsdl:part name="in" element="tns:StaffReceiveSuggestionRequest"/>
+    </wsdl:message>
+
+
+    <wsdl:message name="DynamicSearchRequest">
+        <wsdl:part name="in" element="tns:DynamicSearchRequest"/>
+    </wsdl:message>
+    <wsdl:message name="DynamicSearchResponse">
+        <wsdl:part name="out" element="tns:DynamicSearchResponse"/>
+    </wsdl:message>
+
+
+    <wsdl:message name="SearchConditionRequest">
+        <wsdl:part name="in" element="tns:SearchConditionRequest"/>
+    </wsdl:message>
+    <wsdl:message name="SearchConditionResponse">
+        <wsdl:part name="out" element="tns:SearchConditionResponse"/>
+    </wsdl:message>
+    <!-- Port (interface) definitions -->
+    <wsdl:portType name="StaffDetailEndpoint">
+
+
+        <wsdl:operation name="getStaffDetail">
+            <wsdl:input message="tns:StaffDetailRequest"/>
+            <wsdl:output message="tns:StaffDTOResponse"/>
+        </wsdl:operation>
+
+        <wsdl:operation name="getListBlockField">
+            <wsdl:input message="tns:StaffBlockRequest"/>
+            <wsdl:output message="tns:StaffDTOResponse"/>
+        </wsdl:operation>
+
+        <wsdl:operation name="saveListField">
+            <wsdl:input message="tns:StaffDetailAddRequest"/>
+            <wsdl:output message="tns:StaffDTOResponse"/>
+        </wsdl:operation>
+
+        <wsdl:operation name="addStaff">
+            <wsdl:input message="tns:AddStaffRequest"/>
+            <wsdl:output message="tns:StaffDTOResponse"/>
+        </wsdl:operation>
+
+        <wsdl:operation name="getRole">
+            <wsdl:input message="tns:RoleRequest"/>
+            <wsdl:output message="tns:StaffDTOResponse"/>
+        </wsdl:operation>
+
+        <wsdl:operation name="getInformationAccount">
+            <wsdl:input message="tns:StaffInformationRequest"/>
+            <wsdl:output message="tns:StaffDTOResponse"/>
+        </wsdl:operation>
+
+        <wsdl:operation name="isAddAnother">
+            <wsdl:input message="tns:BlockRequest"/>
+            <wsdl:output message="tns:BlockResponse"/>
+        </wsdl:operation>
+
+        <wsdl:operation name="getListFieldMutileRow">
+            <wsdl:input message="tns:AddMutileRequest"/>
+            <wsdl:output message="tns:StaffDTOResponse"/>
+        </wsdl:operation>
+
+        <wsdl:operation name="deleteMultiField">
+            <wsdl:input message="tns:DeleteMutilFieldRequest"/>
+            <wsdl:output message="tns:StaffDTOResponse"/>
+        </wsdl:operation>
+
+          <wsdl:operation name="deleteRight">
+            <wsdl:input message="tns:DeleteRightRequest"/>
+            <wsdl:output message="tns:AccountResponse"/>
+        </wsdl:operation>
+
+          <wsdl:operation name="findAllUser">
+            <wsdl:input message="tns:StaffRequest"/>
+            <wsdl:output message="tns:AccountResponse"/>
+        </wsdl:operation>
+
+         <wsdl:operation name="getUserCommon">
+            <wsdl:input message="tns:AccountRequest"/>
+            <wsdl:output message="tns:AccountResponse"/>
+        </wsdl:operation>
+
+        <wsdl:operation name="getAdmins">
+            <wsdl:input message="tns:AdminRequest"/>
+            <wsdl:output message="tns:CompanyResponse"/>
+        </wsdl:operation>
+
+        <wsdl:operation name="getBillingHistory">
+            <wsdl:input message="tns:BillingHistoryRequest"/>
+            <wsdl:output message="tns:CompanyResponse"/>
+        </wsdl:operation>
+
+        <wsdl:operation name="getListPayment">
+            <wsdl:input message="tns:AdminPaymentRequest"/>
+            <wsdl:output message="tns:CompanyResponse"/>
+        </wsdl:operation>
+
+        <wsdl:operation name="getListEntryText">
+            <wsdl:input message="tns:TextEntryRequest"/>
+            <wsdl:output message="tns:CompanyResponse"/>
+        </wsdl:operation>
+
+        <wsdl:operation name="editEntryText">
+            <wsdl:input message="tns:EditEntryTextRequest"/>
+            <wsdl:output message="tns:CompanyResponse"/>
+        </wsdl:operation>
+
+        <wsdl:operation name="registerCustomer">
+            <wsdl:input message="tns:AddCustomerRequest"/>
+            <wsdl:output message="tns:AddCustomerResponse"/>
+        </wsdl:operation>
+
+        <wsdl:operation name="getCustomerById">
+            <wsdl:input message="tns:CustomerRequest"/>
+            <wsdl:output message="tns:Account"/>
+        </wsdl:operation>
+
+        <wsdl:operation name="validateVerificationCode">
+            <wsdl:input message="tns:ValidateVerificationCodeRequest"/>
+            <wsdl:output message="tns:AddCustomerResponse"/>
+        </wsdl:operation>
+
+
+        <wsdl:operation name="getListStaffReceiveSuggestion">
+            <wsdl:input message="tns:StaffReceiveSuggestionRequest"/>
+            <wsdl:output message="tns:AccountResponse"/>
+        </wsdl:operation>
+
+
+        <wsdl:operation name="executeDynamicSearchQuery">
+            <wsdl:input message="tns:DynamicSearchRequest"/>
+            <wsdl:output message="tns:DynamicSearchResponse"/>
+        </wsdl:operation>
+
+        <wsdl:operation name="getConditionSearch">
+            <wsdl:input message="tns:SearchConditionRequest"/>
+            <wsdl:output message="tns:SearchConditionResponse"/>
+        </wsdl:operation>
+
+
+    </wsdl:portType>
+
+
+    <!-- Port bindings to transports and encoding - HTTP, document literal encoding is used -->
+    <wsdl:binding name="StaffDetailBinding" type="tns:StaffDetailEndpoint">
+        <soap:binding transport="http://schemas.xmlsoap.org/soap/http"/>
+
+
+        <wsdl:operation name="getStaffDetail">
+            <wsdl:input>
+                <soap:body parts="in" use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body parts="out" use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="getListBlockField">
+            <wsdl:input>
+                <soap:body parts="in" use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body parts="out" use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="saveListField">
+            <wsdl:input>
+                <soap:body parts="in" use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body parts="out" use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="addStaff">
+            <wsdl:input>
+                <soap:body parts="in" use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body parts="out" use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="getRole">
+            <wsdl:input>
+                <soap:body parts="in" use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body parts="out" use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+
+
+        <wsdl:operation name="getInformationAccount">
+            <wsdl:input>
+                <soap:body parts="in" use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body parts="out" use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="isAddAnother">
+            <wsdl:input>
+                <soap:body parts="in" use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body parts="out" use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="getListFieldMutileRow">
+            <wsdl:input>
+                <soap:body parts="in" use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body parts="out" use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+
+
+         <wsdl:operation name="deleteMultiField">
+            <wsdl:input>
+                <soap:body parts="in" use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body parts="out" use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+
+         <wsdl:operation name="deleteRight">
+            <wsdl:input>
+                <soap:body parts="in" use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body parts="out" use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="findAllUser">
+            <wsdl:input>
+                <soap:body parts="in" use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body parts="out" use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="getUserCommon">
+            <wsdl:input>
+                <soap:body parts="in" use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body parts="out" use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="getAdmins">
+            <wsdl:input>
+                <soap:body parts="in" use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body parts="out" use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="getBillingHistory">
+            <wsdl:input>
+                <soap:body parts="in" use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body parts="out" use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="getListPayment">
+            <wsdl:input>
+                <soap:body parts="in" use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body parts="out" use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="getListEntryText">
+            <wsdl:input>
+                <soap:body parts="in" use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body parts="out" use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="editEntryText">
+            <wsdl:input>
+                <soap:body parts="in" use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body parts="out" use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="registerCustomer">
+            <wsdl:input>
+                <soap:body parts="in" use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body parts="out" use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="getCustomerById">
+            <wsdl:input>
+                <soap:body parts="in" use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body parts="out" use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="validateVerificationCode">
+            <wsdl:input>
+                <soap:body parts="in" use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body parts="out" use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="getListStaffReceiveSuggestion">
+            <wsdl:input>
+                <soap:body parts="in" use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body parts="out" use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+
+
+        <wsdl:operation name="executeDynamicSearchQuery">
+            <wsdl:input>
+                <soap:body parts="in" use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body parts="out" use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+
+
+        <wsdl:operation name="getConditionSearch">
+            <wsdl:input>
+                <soap:body parts="in" use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body parts="out" use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+
+    </wsdl:binding>
+
+    <!-- Service definition -->
+    <wsdl:service name="StaffDetailEndpointService">
+        <wsdl:port name="StaffDetailEndpoint" binding="tns:StaffDetailBinding">
+            <soap:address location="http://localhost:9080/router/webservices/staffDetail"/>
+        </wsdl:port>
+    </wsdl:service>
+
+</wsdl:definitions>

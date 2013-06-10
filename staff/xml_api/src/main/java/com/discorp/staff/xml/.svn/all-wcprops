@@ -1,0 +1,347 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repo/!svn/ver/11206/trunk/MiddleTier/Staff/xml_api/src/main/java/com/discorp/staff/xml
+END
+AdminPaymentRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/xml_api/src/main/java/com/discorp/staff/xml/AdminPaymentRequest.java
+END
+AdminRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/xml_api/src/main/java/com/discorp/staff/xml/AdminRequest.java
+END
+BlockRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/xml_api/src/main/java/com/discorp/staff/xml/BlockRequest.java
+END
+MailServerInfoResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/xml_api/src/main/java/com/discorp/staff/xml/MailServerInfoResponse.java
+END
+InformationResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repo/!svn/ver/10360/trunk/MiddleTier/Staff/xml_api/src/main/java/com/discorp/staff/xml/InformationResponse.java
+END
+AccountRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/xml_api/src/main/java/com/discorp/staff/xml/AccountRequest.java
+END
+StaffInfoDTOResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repo/!svn/ver/9137/trunk/MiddleTier/Staff/xml_api/src/main/java/com/discorp/staff/xml/StaffInfoDTOResponse.java
+END
+StaffDetailAddRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/xml_api/src/main/java/com/discorp/staff/xml/StaffDetailAddRequest.java
+END
+UpdateNotificationResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/xml_api/src/main/java/com/discorp/staff/xml/UpdateNotificationResponse.java
+END
+DeleteRightRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/xml_api/src/main/java/com/discorp/staff/xml/DeleteRightRequest.java
+END
+BlockResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/xml_api/src/main/java/com/discorp/staff/xml/BlockResponse.java
+END
+SetupRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/xml_api/src/main/java/com/discorp/staff/xml/SetupRequest.java
+END
+CustomerRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repo/!svn/ver/9292/trunk/MiddleTier/Staff/xml_api/src/main/java/com/discorp/staff/xml/CustomerRequest.java
+END
+RoleRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repo/!svn/ver/9467/trunk/MiddleTier/Staff/xml_api/src/main/java/com/discorp/staff/xml/RoleRequest.java
+END
+AccountResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repo/!svn/ver/9467/trunk/MiddleTier/Staff/xml_api/src/main/java/com/discorp/staff/xml/AccountResponse.java
+END
+BillingHistoryRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repo/!svn/ver/10360/trunk/MiddleTier/Staff/xml_api/src/main/java/com/discorp/staff/xml/BillingHistoryRequest.java
+END
+CancelServiceRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repo/!svn/ver/9467/trunk/MiddleTier/Staff/xml_api/src/main/java/com/discorp/staff/xml/CancelServiceRequest.java
+END
+SetupResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repo/!svn/ver/10360/trunk/MiddleTier/Staff/xml_api/src/main/java/com/discorp/staff/xml/SetupResponse.java
+END
+TextEntryRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/xml_api/src/main/java/com/discorp/staff/xml/TextEntryRequest.java
+END
+UpdateCreditCardRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repo/!svn/ver/9467/trunk/MiddleTier/Staff/xml_api/src/main/java/com/discorp/staff/xml/UpdateCreditCardRequest.java
+END
+AddMutileRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/xml_api/src/main/java/com/discorp/staff/xml/AddMutileRequest.java
+END
+StaffInformationRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/xml_api/src/main/java/com/discorp/staff/xml/StaffInformationRequest.java
+END
+DynamicSearchRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repo/!svn/ver/10478/trunk/MiddleTier/Staff/xml_api/src/main/java/com/discorp/staff/xml/DynamicSearchRequest.java
+END
+AddCustomerRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repo/!svn/ver/10361/trunk/MiddleTier/Staff/xml_api/src/main/java/com/discorp/staff/xml/AddCustomerRequest.java
+END
+CommonStaffRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/xml_api/src/main/java/com/discorp/staff/xml/CommonStaffRequest.java
+END
+AddStaffRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/xml_api/src/main/java/com/discorp/staff/xml/AddStaffRequest.java
+END
+CancelServiceResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/xml_api/src/main/java/com/discorp/staff/xml/CancelServiceResponse.java
+END
+SearchConditionRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repo/!svn/ver/9875/trunk/MiddleTier/Staff/xml_api/src/main/java/com/discorp/staff/xml/SearchConditionRequest.java
+END
+RightRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/xml_api/src/main/java/com/discorp/staff/xml/RightRequest.java
+END
+StaffReceiveSuggestionRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repo/!svn/ver/9931/trunk/MiddleTier/Staff/xml_api/src/main/java/com/discorp/staff/xml/StaffReceiveSuggestionRequest.java
+END
+DynamicSearchResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repo/!svn/ver/9838/trunk/MiddleTier/Staff/xml_api/src/main/java/com/discorp/staff/xml/DynamicSearchResponse.java
+END
+AddCustomerResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repo/!svn/ver/10361/trunk/MiddleTier/Staff/xml_api/src/main/java/com/discorp/staff/xml/AddCustomerResponse.java
+END
+StaffDTOResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repo/!svn/ver/10361/trunk/MiddleTier/Staff/xml_api/src/main/java/com/discorp/staff/xml/StaffDTOResponse.java
+END
+InvationCodeRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repo/!svn/ver/10360/trunk/MiddleTier/Staff/xml_api/src/main/java/com/discorp/staff/xml/InvationCodeRequest.java
+END
+SearchConditionResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repo/!svn/ver/10360/trunk/MiddleTier/Staff/xml_api/src/main/java/com/discorp/staff/xml/SearchConditionResponse.java
+END
+NotificationInformation.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repo/!svn/ver/10360/trunk/MiddleTier/Staff/xml_api/src/main/java/com/discorp/staff/xml/NotificationInformation.java
+END
+MailServerInfoRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repo/!svn/ver/10360/trunk/MiddleTier/Staff/xml_api/src/main/java/com/discorp/staff/xml/MailServerInfoRequest.java
+END
+InformationRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/xml_api/src/main/java/com/discorp/staff/xml/InformationRequest.java
+END
+ObjectFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repo/!svn/ver/9931/trunk/MiddleTier/Staff/xml_api/src/main/java/com/discorp/staff/xml/ObjectFactory.java
+END
+StaffDetailRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repo/!svn/ver/9467/trunk/MiddleTier/Staff/xml_api/src/main/java/com/discorp/staff/xml/StaffDetailRequest.java
+END
+ValidateVerificationCodeRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repo/!svn/ver/8836/trunk/MiddleTier/Staff/xml_api/src/main/java/com/discorp/staff/xml/ValidateVerificationCodeRequest.java
+END
+InvationCodeResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/xml_api/src/main/java/com/discorp/staff/xml/InvationCodeResponse.java
+END
+UpdateMailServerInfoRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repo/!svn/ver/10360/trunk/MiddleTier/Staff/xml_api/src/main/java/com/discorp/staff/xml/UpdateMailServerInfoRequest.java
+END
+UpdateNotificationRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repo/!svn/ver/10360/trunk/MiddleTier/Staff/xml_api/src/main/java/com/discorp/staff/xml/UpdateNotificationRequest.java
+END
+NotificationInformationRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repo/!svn/ver/9467/trunk/MiddleTier/Staff/xml_api/src/main/java/com/discorp/staff/xml/NotificationInformationRequest.java
+END
+UpdateMailServerInfoResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/xml_api/src/main/java/com/discorp/staff/xml/UpdateMailServerInfoResponse.java
+END
+NotificationInformationResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repo/!svn/ver/9467/trunk/MiddleTier/Staff/xml_api/src/main/java/com/discorp/staff/xml/NotificationInformationResponse.java
+END
+StaffRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/xml_api/src/main/java/com/discorp/staff/xml/StaffRequest.java
+END
+ChangePasswordRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repo/!svn/ver/9467/trunk/MiddleTier/Staff/xml_api/src/main/java/com/discorp/staff/xml/ChangePasswordRequest.java
+END
+MailServerInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repo/!svn/ver/10360/trunk/MiddleTier/Staff/xml_api/src/main/java/com/discorp/staff/xml/MailServerInfo.java
+END
+EditEntryTextRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repo/!svn/ver/10361/trunk/MiddleTier/Staff/xml_api/src/main/java/com/discorp/staff/xml/EditEntryTextRequest.java
+END
+CompanyResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/xml_api/src/main/java/com/discorp/staff/xml/CompanyResponse.java
+END
+UpdateCreditCardResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/xml_api/src/main/java/com/discorp/staff/xml/UpdateCreditCardResponse.java
+END
+ChangePasswordResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/xml_api/src/main/java/com/discorp/staff/xml/ChangePasswordResponse.java
+END
+StaffBlockRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repo/!svn/ver/9467/trunk/MiddleTier/Staff/xml_api/src/main/java/com/discorp/staff/xml/StaffBlockRequest.java
+END
+DeleteMutilFieldRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/xml_api/src/main/java/com/discorp/staff/xml/DeleteMutilFieldRequest.java
+END
+Account.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repo/!svn/ver/11206/trunk/MiddleTier/Staff/xml_api/src/main/java/com/discorp/staff/xml/Account.java
+END

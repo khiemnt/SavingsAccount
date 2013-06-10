@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repo/!svn/ver/11782/trunk/MiddleTier/Staff/service/src/test/java/discorp.savings.service
+END
+TestSavingsAccountService.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repo/!svn/ver/11782/trunk/MiddleTier/Staff/service/src/test/java/discorp.savings.service/TestSavingsAccountService.java
+END
+MockTransactionDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repo/!svn/ver/11782/trunk/MiddleTier/Staff/service/src/test/java/discorp.savings.service/MockTransactionDao.java
+END
+MockOrderDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repo/!svn/ver/11782/trunk/MiddleTier/Staff/service/src/test/java/discorp.savings.service/MockOrderDao.java
+END
+MockSavingsAccountDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repo/!svn/ver/11782/trunk/MiddleTier/Staff/service/src/test/java/discorp.savings.service/MockSavingsAccountDao.java
+END
+MockCheckDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repo/!svn/ver/11782/trunk/MiddleTier/Staff/service/src/test/java/discorp.savings.service/MockCheckDao.java
+END

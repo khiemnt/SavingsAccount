@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Osmorc" name="OSGi">
+      <configuration manifestGenerationMode="OsmorcControlled" manifestLocation="" jarfileLocation="stl_staff_routing-1.0.1.jar" outputPathType="CompilerOutputPath" bndFileLocation="" bundlorFileLocation="" bundleActivator="" bundleSymbolicName="stl_staff_routing" bundleVersion="1.0.1" ignoreFilePattern="" useProjectDefaultManifestFileLocation="true" alwaysRebuildBundleJAR="false" doNotSynchronizeWithMaven="false">
+        <additionalProperties>
+          <property key="Export-Package" value="com.discorp.stafflinkxml" />
+          <property key="Import-Package" value="META-INF.cxf,META-INF.cxf.osgi,org.apache.cxf,org.apache.cxf.binding,org.apache.cxf.binding.corba,org.apache.cxf.binding.soap,org.apache.cxf.binding.soap.spring,org.apache.cxf.bus,org.apache.cxf.bus.resource,org.apache.cxf.bus.spring,org.apache.cxf.buslifecycle,org.apache.cxf.catalog,org.apache.cxf.configuration,org.apache.cxf.configuration.spring,org.apache.cxf.endpoint,org.apache.cxf.headers,org.apache.cxf.management,org.apache.cxf.management.jmx,org.apache.cxf.phase,org.apache.cxf.resource,org.apache.cxf.service.factory,org.apache.cxf.transport,org.apache.cxf.transport.http,org.apache.cxf.transport.http.policy,org.apache.cxf.transport.http_jetty,org.apache.cxf.transport.http_osgi,org.apache.cxf.transport.jms,org.apache.cxf.transports.http,org.apache.cxf.workqueue,org.apache.cxf.wsdl,org.apache.cxf.wsdl11,org.apache.ws.security.action,org.apache.ws.security.processor,org.springframework.beans.factory.config,org.springframework.mail.javamail,org.springframework.transaction,org.springframework.aop,org.springframework.aop.framework,org.aopalliance.aop,org.hibernate.jdbc,org.apache.camel.component.servlet,org.apache.camel.component.http,javax.servlet,net.sf.cglib.proxy,com.discorp.staff.schema,com.discorp.staff.xml,*" />
+          <property key="Bundle-Name" value="Stafflink Staff :: routing" />
+          <property key="Include-Resource" value="log4j.properties=$MODULE_DIR$/src/main/resources/log4j.properties,META-INF/LICENSE.txt=$MODULE_DIR$/src/main/resources/META-INF/LICENSE.txt,META-INF/NOTICE.txt=$MODULE_DIR$/src/main/resources/META-INF/NOTICE.txt,META-INF/spring/bundle-context-osgi.xml=$MODULE_DIR$/src/main/resources/META-INF/spring/bundle-context-osgi.xml,META-INF/spring/bundle-context.xml=$MODULE_DIR$/src/main/resources/META-INF/spring/bundle-context.xml,META-INF/spring/camel-config.xml=$MODULE_DIR$/src/main/resources/META-INF/spring/camel-config.xml" />
+        </additionalProperties>
+        <additionalJARContents />
+      </configuration>
+    </facet>
+    <facet type="Spring" name="Spring">
+      <configuration>
+        <fileset id="fileset1" name="Xml Application Context" removed="false">
+          <file>file://$MODULE_DIR$/src/main/resources/META-INF/spring/bundle-context.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/META-INF/spring/camel-config.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/META-INF/spring/bundle-context-osgi.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <output-test url="file://$MODULE_DIR$/target/test-classes" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
+

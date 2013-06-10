@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Export-Package: com.discorp.staff.xml;uses:="javax.xml.bind.annotation
+ ,javax.xml.bind,javax.xml.namespace",com.discorp.staff.schema
+Private-Package: com.discorp.staff.xml,
+Built-By: khiemnt
+Tool: Bnd-0.0.311
+Bundle-Name: Stafflink Staff :: xml
+Created-By: Apache Maven Bundle Plugin
+Bundle-Version: 1.0.1
+Build-Jdk: 1.7.0_09
+Bnd-LastModified: 1370600601113
+Bundle-ManifestVersion: 2
+Import-Package: com.discorp.staff.schema,com.discorp.staff.xml,javax.j
+ ws,javax.jws.soap,javax.transaction,javax.xml.bind,javax.xml.bind.ann
+ otation,javax.xml.namespace,javax.xml.ws,org.aopalliance.aop,org.spri
+ ngframework.aop,org.springframework.aop.framework,org.springframework
+ .jmx.export,org.springframework.transaction,org.springframework.trans
+ action.interceptor
+Bundle-SymbolicName: stl_staff_xml_api
+

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:osgi="http://www.springframework.org/schema/osgi"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+                      http://www.springframework.org/schema/osgi http://www.springframework.org/schema/osgi/spring-osgi.xsd">
+
+
+    <!-- definitions using elements of the osgi namespace can be included
+in this file. There is no requirement to keep these definitions
+in a separate file if you do not want to. The rationale for
+keeping these definitions separate is to facilitate integration
+testing of the bundle outside of an OSGi container -->
+
+    <osgi:service ref="fieldDAO" interface="com.discorp.staff.dao.FieldDao"/>
+    <osgi:service ref="customerDAO" interface="com.discorp.staff.dao.CustomerDao"/>
+    <osgi:service ref="addressDAO" interface="com.discorp.staff.dao.AddressDao"/>
+    <osgi:service ref="businessEntityDAO" interface="com.discorp.staff.dao.BusinessEntityDao"/>
+    <osgi:service ref="contactDAO" interface="com.discorp.staff.dao.ContactDao"/>
+    <osgi:service ref="communicationDetailDAO" interface="com.discorp.staff.dao.CommunicationDetailDao"/>
+    <osgi:service ref="dealerDAO" interface="com.discorp.staff.dao.DealerDao"/>
+    <osgi:service ref="cardInfoDAO" interface="com.discorp.staff.dao.CardInfoDao"/>
+    <osgi:service ref="paymentDAO" interface="com.discorp.staff.dao.PaymentDao"/>
+    <osgi:service ref="companyDAO" interface="com.discorp.staff.dao.CompanyDao"/>
+    <osgi:service ref="mailServerInfoDAO" interface="com.discorp.staff.dao.MailServerInfoDao"/>
+    <osgi:service ref="blockDAO" interface="com.discorp.staff.dao.BlockDao"/>
+    <osgi:service ref="billingHistoryDAO" interface="com.discorp.staff.dao.BillingHistoryDao"/>
+    <osgi:service ref="textEntryDAO" interface="com.discorp.staff.dao.TextEntryDao"/>
+    <osgi:service ref="userPaymentDAO" interface="com.discorp.staff.dao.UserPaymentDao"/>
+    <osgi:service ref="fieldValueDAO" interface="com.discorp.staff.dao.FieldValueDao"/>
+    <osgi:service ref="commonInforDAO" interface="com.discorp.staff.dao.CommonInforDao"/>
+    <osgi:service ref="firstLightDAO" interface="com.discorp.staff.dao.FirstLightDao"/>
+    <osgi:service ref="searchableAttributeDAO" interface="com.discorp.staff.dao.SearchableAttributeDao"/>
+    <osgi:service ref="attributeValueDao" interface="com.discorp.staff.dao.AttributeValueDao"/>
+
+</beans>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:osgi="http://www.springframework.org/schema/osgi"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+                      http://www.springframework.org/schema/osgi http://www.springframework.org/schema/osgi/spring-osgi.xsd">
+
+    <osgi:reference id="fieldDAO" interface="com.discorp.staff.dao.FieldDao"/>
+    <osgi:reference id="customerDAO" interface="com.discorp.staff.dao.CustomerDao"/>
+    <osgi:reference id="addressDAO" interface="com.discorp.staff.dao.AddressDao"/>
+    <osgi:reference id="communicationDetailDAO" interface="com.discorp.staff.dao.CommunicationDetailDao"/>
+    <osgi:reference id="contactDAO" interface="com.discorp.staff.dao.ContactDao"/>
+    <osgi:reference id="businessEntityDAO" interface="com.discorp.staff.dao.BusinessEntityDao"/>
+    <osgi:reference id="dealerDAO" interface="com.discorp.staff.dao.DealerDao"/>
+    <osgi:reference id="paymentDAO" interface="com.discorp.staff.dao.PaymentDao"/>
+    <osgi:reference id="cardInfoDAO" interface="com.discorp.staff.dao.CardInfoDao"/>
+    <osgi:reference id="companyDAO" interface="com.discorp.staff.dao.CompanyDao"/>
+    <osgi:reference id="mailServerInfoDAO" interface="com.discorp.staff.dao.MailServerInfoDao"/>
+    <osgi:reference id="blockDAO" interface="com.discorp.staff.dao.BlockDao"/>
+    <osgi:reference id="textEntryDAO" interface="com.discorp.staff.dao.TextEntryDao"/>
+    <osgi:reference id="billingHistoryDAO" interface="com.discorp.staff.dao.BillingHistoryDao"/>
+    <osgi:reference id="userPaymentDAO" interface="com.discorp.staff.dao.UserPaymentDao"/>
+    <osgi:reference id="fieldValueDAO" interface="com.discorp.staff.dao.FieldValueDao"/>
+    <osgi:reference id="commonInforDAO" interface="com.discorp.staff.dao.CommonInforDao"/>
+    <osgi:reference id="firstLightDAO" interface="com.discorp.staff.dao.FirstLightDao"/>
+    <osgi:reference id="searchableAttributeDAO" interface="com.discorp.staff.dao.SearchableAttributeDao"/>
+    <osgi:reference id="attributeValueDAO" interface="com.discorp.staff.dao.AttributeValueDao"/>
+
+    <osgi:service ref="staffServiceTarget" interface="com.discorp.staff.service.StaffService"/>
+    <osgi:service ref="setupService" interface="com.discorp.staff.service.SetupService"/>
+    <osgi:service ref="settingService" interface="com.discorp.staff.service.SettingService"/>
+    <osgi:service ref="commonUserService" interface="com.discorp.staff.service.CommonUserService"/>
+    <osgi:service ref="adminService" interface="com.discorp.staff.service.AdminService"/>
+    <osgi:service ref="firstLightService" interface="com.discorp.staff.service.FirstLightService"/>
+
+    <bean id="commonUserService" class="com.discorp.staff.service.impl.CommonUserServiceImpl">
+        <property name="fieldDAO" ref="fieldDAO"/>
+        <property name="customerDAO" ref="customerDAO"/>
+    </bean>
+
+    <bean id="staffServiceTarget" class="com.discorp.staff.service.impl.StaffServiceImpl">
+        <property name="fieldDAO" ref="fieldDAO"/>
+        <property name="fieldValueDAO" ref="fieldValueDAO"/>
+        <property name="customerDAO" ref="customerDAO"/>
+        <property name="addressDAO" ref="addressDAO"/>
+        <property name="contactDAO" ref="contactDAO"/>
+        <property name="businessEntityDAO" ref="businessEntityDAO"/>
+        <property name="communicationDetailDAO" ref="communicationDetailDAO"/>
+        <property name="blockDao" ref="blockDAO"/>
+    </bean>
+
+    <bean id="setupService" class="com.discorp.staff.service.impl.SetupServiceImpl">
+        <property name="fieldDAO" ref="fieldDAO"/>
+        <property name="customerDAO" ref="customerDAO"/>
+        <property name="addressDAO" ref="addressDAO"/>
+        <property name="contactDAO" ref="contactDAO"/>
+        <property name="businessEntityDAO" ref="businessEntityDAO"/>
+        <property name="communicationDetailDAO" ref="communicationDetailDAO"/>
+        <property name="cardInfoDAO" ref="cardInfoDAO"/>
+        <property name="paymentDAO" ref="paymentDAO"/>
+        <property name="dealerDAO" ref="dealerDAO"/>
+        <property name="companyDAO" ref="companyDAO"/>
+        <property name="commonInforDAO" ref="commonInforDAO"/>
+    </bean>
+
+    <bean id="settingService" class="com.discorp.staff.service.impl.SettingServiceImpl">
+        <property name="fieldDAO" ref="fieldDAO"/>
+        <property name="customerDAO" ref="customerDAO"/>
+        <property name="communicationDetailDAO" ref="communicationDetailDAO"/>
+        <property name="cardInfoDAO" ref="cardInfoDAO"/>
+        <property name="dealerDAO" ref="dealerDAO"/>
+        <property name="mailServerInfoDAO" ref="mailServerInfoDAO"/>
+        <property name="fieldValueDAO" ref="fieldValueDAO"/>
+    </bean>
+
+    <bean id="adminService" class="com.discorp.staff.service.impl.AdminServiceImpl">
+        <property name="paymentDAO" ref="paymentDAO"/>
+        <property name="companyDAO" ref="companyDAO"/>
+        <property name="textEntryDAO" ref="textEntryDAO"/>
+        <property name="customerDAO" ref="customerDAO"/>
+        <property name="fieldDAO" ref="fieldDAO"/>
+        <property name="billingHistoryDAO" ref="billingHistoryDAO"/>
+        <property name="cardInfoDAO" ref="cardInfoDAO"/>
+        <property name="userPaymentDAO" ref="userPaymentDAO"/>
+        <property name="fieldValueDAO" ref="fieldValueDAO"/>
+    </bean>
+    <bean id="firstLightService" class="com.discorp.staff.service.impl.FirstLightServiceImpl">
+        <property name="customerDAO" ref="customerDAO"/>
+        <property name="addressDAO" ref="addressDAO"/>
+        <property name="contactDAO" ref="contactDAO"/>
+        <property name="businessEntityDAO" ref="businessEntityDAO"/>
+        <property name="communicationDetailDAO" ref="communicationDetailDAO"/>
+        <property name="dealerDAO" ref="dealerDAO"/>
+        <property name="firstLightDAO" ref="firstLightDAO"/>
+        <property name="fieldDAO" ref="fieldDAO"/>
+        <property name="searchableAttributeDAO" ref="searchableAttributeDAO"/>
+        <property name="attributeValueDAO" ref="attributeValueDAO"/>
+    </bean>
+    <bean id="abstractService" abstract="true"
+          class="org.springframework.transaction.interceptor.TransactionProxyFactoryBean">
+        <property name="transactionManager">
+            <osgi:reference interface="org.springframework.transaction.PlatformTransactionManager"/>
+        </property>
+    </bean>
+
+    <bean id="staffService"
+          parent="abstractService"
+          class="org.springframework.transaction.interceptor.TransactionProxyFactoryBean">
+
+        <property name="target">
+            <list>
+            <ref bean="staffServiceTarget"/>
+            </list>
+        </property>
+        <property name="proxyInterfaces">
+            <list>
+                <value>com.discorp.staff.service.StaffService</value>
+            </list>
+        </property>
+        <property name="transactionAttributes">
+            <props>
+                <prop key="*">PROPAGATION_REQUIRED</prop>
+            </props>
+        </property>
+    </bean>
+    <bean id="exporter" class="org.springframework.jmx.export.MBeanExporter" lazy-init="false">
+        <property name="beans">
+            <map>
+                <entry key="bean:name=staffService" value-ref="staffService"/>
+            </map>
+        </property>
+    </bean>
+</beans>

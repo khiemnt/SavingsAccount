@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repo/!svn/ver/11784/trunk/MiddleTier/Staff/model/src/main/java/com/discorp/savings/dto
+END
+SavingsAccountDTO.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repo/!svn/ver/11784/trunk/MiddleTier/Staff/model/src/main/java/com/discorp/savings/dto/SavingsAccountDTO.java
+END
+HistoryDTO.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repo/!svn/ver/11784/trunk/MiddleTier/Staff/model/src/main/java/com/discorp/savings/dto/HistoryDTO.java
+END
+PayRollDTO.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repo/!svn/ver/11784/trunk/MiddleTier/Staff/model/src/main/java/com/discorp/savings/dto/PayRollDTO.java
+END
+CheckDepositDTO.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repo/!svn/ver/11784/trunk/MiddleTier/Staff/model/src/main/java/com/discorp/savings/dto/CheckDepositDTO.java
+END
+SavingsDTO.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repo/!svn/ver/11784/trunk/MiddleTier/Staff/model/src/main/java/com/discorp/savings/dto/SavingsDTO.java
+END
+BankACHDTO.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repo/!svn/ver/11784/trunk/MiddleTier/Staff/model/src/main/java/com/discorp/savings/dto/BankACHDTO.java
+END
+OrderDTO.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repo/!svn/ver/11770/trunk/MiddleTier/Staff/model/src/main/java/com/discorp/savings/dto/OrderDTO.java
+END
+TransactionDTO.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repo/!svn/ver/11784/trunk/MiddleTier/Staff/model/src/main/java/com/discorp/savings/dto/TransactionDTO.java
+END

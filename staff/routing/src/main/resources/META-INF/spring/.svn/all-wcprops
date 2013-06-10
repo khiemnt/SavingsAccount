@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repo/!svn/ver/9467/trunk/MiddleTier/Staff/routing/src/main/resources/META-INF/spring
+END
+camel-config.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/routing/src/main/resources/META-INF/spring/camel-config.xml
+END
+bundle-context-osgi.xml
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/routing/src/main/resources/META-INF/spring/bundle-context-osgi.xml
+END
+bundle-context.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repo/!svn/ver/9467/trunk/MiddleTier/Staff/routing/src/main/resources/META-INF/spring/bundle-context.xml
+END

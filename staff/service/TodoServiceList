@@ -1,0 +1,64 @@
+ I.Problem
+ generateNextAccountNumber() khong biet giai quyet the nao, hien gio tu sinh, phai kiem tra lai xem co phai nhan tu ngoai khong
+
+refactor tach account, transaction, order, tach ca test nua
+
+* check deposit (bằng séc)
+
+9 phuong thuc sinh transaction cho tat ca cac loai order voi checkDate
+
+
+II. Done
+-đầu service:
+------------------sinh id cho transaction tai tang service
+------------------sinh id cho order tai tang service
+------------------------------------1. tạo 1 account (vốn khởi đầu: 1000.00, ngày bắt đầu: 1 Jan 2013)
+------------------------------------2. lấy được balance
+------------------3. tính lãi: earnedBNAInterest, tại thời điểm nào đó
+---------------------- ghi nhan transaction
+------------------4. deposit $2000 ngày nào đó
+-------------------------------------ghi nhan transaction
+
+---------------------5. withdrawal số tiền, ngày
+----------------------------------ghi nhan transaction
+ -------approve một order nào đó
+ -----disapproved ,NotApprovedForPendingOrder
+ -----cancel một order nào đó
+
+ ------lấy thông tin về một order
+
+ --------6. deposit order sinh ra recurring deposit
+ --------7. withdrawal order sinh ra recurring withdrawal
+
+ -----------------lấy được các transaction đã xảy ra của một tài khoản  nào đó cho đến thời điểm gì đó.
+ ----------------------------------------------------------------------------------ghi nhan transaction
+   -------8 kiem tra cac order  chua tao transaction  tai thoi diem checkdate
+
+---------lấy được các order đã đặt cho một tài khoản nào đó cho đến thời điểm gì đó.
+----lấy được các order đã đặt cho một tài khoản nào đó và vẫn còn hiệu lực tại thời điểm gì đó
+
+
+
+
+
+
+1.Service Doi voi Staff
+*Hien thi savings account
+*Tinh lai tai thoi diem nao do
+*Hien thi doi voi tung saving(getSavingOfStaff())
+*Transaction withDraw
+*Transaction deposite
+*service order ,save thay doi voi tung loai
+	+ Payroll
+	+ BankACH
+	+ checkDeposite
+
+------------
+2.Service them voi Admin
+
+*Service lay ve tat ca Users voi thong tin tai khoan
+*Service lay ve Pending Withdrawals tinh den ngay hien tai
+
++CheckDeposit: frequency=1; numOfTime=1;
++ isDeposit: true
++ test 1 account ,check balance

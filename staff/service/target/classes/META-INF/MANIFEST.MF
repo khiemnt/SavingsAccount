@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Export-Package: com.discorp.staff.service;uses:="com.discorp.staff.xml
+ ";version="1.0.1"
+Private-Package: com.discorp.staff.service.impl
+Built-By: tiepnm
+Tool: Bnd-0.0.311
+Bundle-Name: Stafflink Staff :: service
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk: 1.6.0_31
+Bundle-Version: 1.0.1
+Bnd-LastModified: 1355125414958
+Bundle-ManifestVersion: 2
+Import-Package: com.discorp.staff.dao;version="1.0",com.discorp.staff.
+ model,com.discorp.staff.service;version="1.0",com.discorp.staff.xml,c
+ om.discorp.utils,javax.jws,javax.jws.soap,javax.transaction,javax.xml
+ .bind,javax.xml.bind.annotation,javax.xml.namespace,javax.xml.ws,org.
+ aopalliance.aop,org.postgresql,org.springframework.aop;version="3.0",
+ org.springframework.aop.framework;version="3.0",org.springframework.j
+ mx.export;version="3.0",org.springframework.transaction;version="3.0"
+ ,org.springframework.transaction.interceptor;version="3.0"
+Bundle-SymbolicName: stl_staff_service
+Originally-Created-By: Apache Maven Bundle Plugin
+

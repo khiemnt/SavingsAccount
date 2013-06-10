@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repo/!svn/ver/11782/trunk/MiddleTier/Staff/service/src/main/java/com/discorp/staff/service
+END
+FirstLightService.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repo/!svn/ver/11782/trunk/MiddleTier/Staff/service/src/main/java/com/discorp/staff/service/FirstLightService.java
+END
+CommonUserService.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repo/!svn/ver/9884/trunk/MiddleTier/Staff/service/src/main/java/com/discorp/staff/service/CommonUserService.java
+END
+SetupService.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repo/!svn/ver/10360/trunk/MiddleTier/Staff/service/src/main/java/com/discorp/staff/service/SetupService.java
+END
+AdminService.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repo/!svn/ver/8779/trunk/MiddleTier/Staff/service/src/main/java/com/discorp/staff/service/AdminService.java
+END
+StaffService.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repo/!svn/ver/10414/trunk/MiddleTier/Staff/service/src/main/java/com/discorp/staff/service/StaffService.java
+END
+SettingService.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repo/!svn/ver/10525/trunk/MiddleTier/Staff/service/src/main/java/com/discorp/staff/service/SettingService.java
+END

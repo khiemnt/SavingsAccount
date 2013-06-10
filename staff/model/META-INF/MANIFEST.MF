@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Export-Package: com.discorp.staff.model;uses:="javax.persistence",com.
+ discorp.staff.dto
+Private-Package: com.discorp.savings.dto
+Built-By: khiemnt
+Tool: Bnd-0.0.311
+Bundle-Name: Stafflink Staff :: model
+Created-By: Apache Maven Bundle Plugin
+Bundle-Version: 1.0.1
+Build-Jdk: 1.7.0_09
+Bnd-LastModified: 1370655190094
+Bundle-ManifestVersion: 2
+Import-Package: com.discorp.staff.dto,com.discorp.staff.model,javax.pe
+ rsistence
+Bundle-SymbolicName: stl_staff_model
+
